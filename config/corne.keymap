@@ -50,10 +50,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp TAB    &trans  &trans  &trans    &trans  &kp LEFT_BRACE          &kp RIGHT_BRACE        &kp EQUAL  &trans    &trans  &trans  &kp BSPC
-&kp LCTRL  &trans  &trans  &trans    &trans  &kp LEFT_BRACKET        &kp RIGHT_BRACKET      &kp MINUS  &trans    &trans  &trans  &trans
-&kp LSHFT  &trans  &trans  &trans    &trans  &kp LEFT_PARENTHESIS    &kp RIGHT_PARENTHESIS  &trans     &trans    &trans  &trans  &trans
-                           &kp LGUI  &trans  &kp SPACE               &kp RET                &trans     &kp RALT
+&kp TAB    &trans  &trans  &trans    &kp GRAVE  &kp LEFT_BRACE          &kp RIGHT_BRACE        &kp EQUAL             &trans    &trans  &trans  &kp BSPC
+&kp LCTRL  &trans  &trans  &trans    &kp SLASH  &kp LEFT_BRACKET        &kp RIGHT_BRACKET      &kp MINUS             &trans    &trans  &trans  &trans
+&kp LSHFT  &trans  &trans  &trans    &trans     &kp LEFT_PARENTHESIS    &kp RIGHT_PARENTHESIS  &kp NON_US_BACKSLASH  &trans    &trans  &trans  &trans
+                           &kp LGUI  &trans     &kp SPACE               &kp RET                &trans                &kp RALT
             >;
         };
     };
